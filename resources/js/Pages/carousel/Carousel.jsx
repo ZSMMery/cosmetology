@@ -9,20 +9,29 @@ import "../../../scss/carousel.scss";
 
 export default function Carousel() {
     const urls = [
-        "/img/1.jpg",
-        "/img/2.jpg",
-        "/img/3.jpg",
-        "/img/4.jpg",
-        "/img/5.png",
-        "/img/6.jpg"
+        "/img/Аппаратные процедуры.jpeg",
+        "/img/Биоревитализация.jpg",
+        "/img/Контурная пластика.jpg",
+        "/img/Липолифтинг.jpg",
+        "/img/Мезотерапия.jpg",
+        "/img/Пилинги.jpg",
+        "/img/Плазмалифтинг.png",
+        "/img/Тредлифтинг.webp",
+        "/img/Чистка лица.jpg",
+        "/img/PRP-терапия.jpeg",
+        
     ];
     const titles = [
+        "Аппаратные процедуры",
         "Биоревитализация",
+        "Контурная пластика",
+        "Липолифтинг",
+        "Мезотерапия",
+        "Пилинги",
         "Плазмалифтинг",
-        "03",
-        "04",
-        "05",
-        "06"
+        "Тредлифтинг",
+        "Чистка лица",
+        "PRP-терапия",
     ];
     const [currentId, setCurrentId] = useState(0);
     const listRef = useRef(null);
@@ -33,7 +42,7 @@ export default function Carousel() {
         gsap.to(listRef.current, {
             y: offset,
             ease: "power4.easeOut",
-            duration: .3
+            duration: .2
         });
     });
 

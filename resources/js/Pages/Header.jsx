@@ -10,13 +10,13 @@ export default function Header() {
                     <div className="navbar-collapse collapse">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Услуги</a>
+                                <a className="nav-link active" aria-current="page" href="#">Каталог</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Обследования</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#"> Запись на прием</a>
+                                <a className="nav-link" href="https://api.whatsapp.com/send?phone=79528421809"> Запись на прием</a>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
