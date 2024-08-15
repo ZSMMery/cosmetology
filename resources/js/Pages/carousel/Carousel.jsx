@@ -5,8 +5,6 @@ import {useGSAP} from "@gsap/react";
 import Slide from "./Slide";
 import Page from "./Page";
 
-import "../../../scss/carousel.scss";
-
 export default function Carousel() {
     const urls = [
         "/img/Аппаратные процедуры.jpeg",

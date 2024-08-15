@@ -13,9 +13,9 @@
     "dependencies": {
         "@gsap/react": "^2.1.1",
         "@inertiajs/react": "^1.2.0",
+        "bootstrap": "^5.3.3",
         "gsap": "^3.12.5",
         "react": "^18.3.1",
-        "react-dom": "^18.3.1",
-        "sass": "^1.77.8"
+        "react-dom": "^18.3.1"
     }
 }
